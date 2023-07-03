@@ -20,7 +20,7 @@ mostrado acima para resolver este problema.'''
 
 def avaliar(expressao):
     valores = []
-    operadores = ['+', '-', '*', '/']  # Operadores suportados
+    operadores = ['+', '-', '*', '/']
 
     for token in expressao:
         if token.isdigit():

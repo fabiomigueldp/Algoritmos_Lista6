@@ -20,6 +20,4 @@ def main():
     words = extract_words(text)
     print(words)
 
-
-if __name__ == '__main__':
-    main()
+main()
